@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;    
+	transition: all 0.3s ease;
+    background-color: aquamarine;
+}
+
+html {
+    padding: 5%;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+    border: 1px black solid;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: xx-large;
+}
+
+table {
+    border: 10px black dashed;
+    margin: 15px 10px 15px 10px;
+    padding: 15px;
+}
+
+#links {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block; 
+    width: 100%;
+    background-image: url(../source/nav-bkg.jpg);
+}
+
+#pf {
+    opacity: 0.5;
+}
+
+
